@@ -271,9 +271,9 @@
     }
 
     .first-1 {
-        margin: -57px 0px 26px 7px;
-        font-size: 52px;
-        padding: 30px 59px 58px 0px;
+        margin: 14px 0px 26px 7px;
+        font-size: 42px;
+        padding: 0px 0px 0px 0px;
         width: 314px;
     }
 
@@ -350,7 +350,7 @@
 
     .p1 {
         margin: -3px 62px 27px 188px;
-        font-size: 70px;
+        font-size: 54px;
         background-color: white;
         width: 784px;
         height: 979px;
@@ -387,6 +387,7 @@
         width: 806px;
         height: 600px;
     }
+
     .footer {
         height: 47px;
         background-color: black;
@@ -400,5 +401,5 @@
         width: 1175px;
     }
 
-    
+
 }
