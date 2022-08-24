@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototype website</title>
+    <script src="/index.js">js</script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="all">
+        <nav class="nav">
+            <ul class="ul">
+                <img src="./static/img/pic1.jpg" alt="" class="img-1">
+                <h1 class="logo">
+                    Demo_web
+                </h1>
+            </ul>
+        </nav>
+    </div>
+    <div class="intro">
+        <div class="intro-sub">
+            <h1 class="first-1">Heading number</h1>
+            <h1 class="first-1">Lorem ipsum dolor sit amet consectetur.</h1>
+            <h1 class="first-1">Lorem ipsum dolor sit amet consectetur.</h1>
+            <h1 class="first-1">Lorem ipsum dolor sit amet consectetur.</h1>
+        </div>
+    </div>
+
+    <h1 class="Heading">
+        DEMO PROTOTYPE
+    </h1>
+    <div class="secintro">
+        <h1 class="copy_heading-2">
+            Demo website....
+        </h1>
+        <p class="copy_heading-1">
+        Lorem ipsum dolor 
+        sit amet consectetur adipisicing elit.
+        Aliquam obcaecati laborum hic harum voluptatem eveniet.
+        </p>
+    </div>
+    <h1 class="contact">Contact_us</h1>
+
+    <div class="all-1">
+        <form id="form" class="myform">
+            <input type="text" class="myinput" name="name" id="name" placeholder="Enter your name" required>
+            <input type="text" class="myinput" name="Address" id="address" placeholder="Enter your Address" required>
+            <input type="text" class="myinput" name="Gender" id="Gender" placeholder="Enter your Gender" required>
+            <input type="text" class="myinput" name="Email" id="email" placeholder="Enter your E-MAIL" required>
+            <input type="submit" value="Register" id="btn" class="btn" onclick="func2()">
+        </form>
+    </div>
+
+    <h1 class="information-1">INFORMATION</h1>
+
+    <div class="ser">
+        <h1 class="head">
+            About Demo Website</h1>
+    </div>
+
+    <div class="info">
+        <p class="info-sub">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui accusamus asperiores corporis dolorum possimus praesentium facilis unde quaerat, odio, optio maiores, quo eaque illo nisi voluptate. Doloremque similique id et modi, aspernatur voluptates dolor dolorem! Sunt rerum placeat sequi quae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatum ipsum laborum vitae praesentium, quod alias cupiditate qui? Aliquid nam quis voluptas laudantium exercitationem dolorum consequuntur facilis, quas ex itaque nemo non eaque rem ratione deleniti fugiat dignissimos expedita fuga?
+        </p>
+    </div>
+    <div class="pic">
+        <img src="./static/img/img-11.webp" alt="" class="imgg-1">
+        <p class="p1">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est ea veniam, corrupti cumque excepturi nulla consequatur alias sapiente numquam rerum perferendis ad, quos error? Aperiam deserunt repudiandae necessitatibus magnam veritatis quasi accusamus sunt iure nobis.
+        </p>
+        <img src="./static/img/img-22.webp" alt="" class="img-2">
+    </div>
+
+    <div class="pic-2">
+        <img src="./static/img/img-33.webp" alt="" class="img-3">
+        <p class="p2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nostrum.
+        </p>
+        <img src="./static/img/img-44.webp" alt="" class="img-4">
+    </div>
+    <footer class="footer">
+        | Copyright © 2022 demowebsite.com | All rights reserved
+    </footer>
+</body>
+<script>
+
+    function func2() {
+
+        event.preventDefault()
+
+        var name = document.getElementById("name").value;
+        var address = document.getElementById("address").value;
+        var Gender = document.getElementById("Gender").value;
+        var email = document.getElementById("email").value;
+
+        localStorage.setItem("name: ", name)
+        localStorage.setItem("address: ", address)
+        localStorage.setItem("Gender: ", Gender)
+        localStorage.setItem("email: ", email)
+
+        alert("This is just a demo.")
+    }
+</script>
+
+</html>
