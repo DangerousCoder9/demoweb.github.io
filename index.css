@@ -233,6 +233,7 @@
     .logo {
         font-size: 69px;
         margin: 83px 0px 0px -25px;
+        font-family: emoji;
     }
 
     .intro {
@@ -350,7 +351,7 @@
 
     .p1 {
         margin: -3px 62px 27px 188px;
-        font-size: 54px;
+        font-size: 56px;
         background-color: white;
         width: 784px;
         height: 979px;
